@@ -20,12 +20,7 @@ export default function App() {
     de la pantalla y que estos no se modifiquen y mx-auto es para que 
     siempre tengan el mismo margen de los lados*/}
     <section className='grid md:grid-cols-3 gap-4 text-xl md:text-2xl container mx-auto'>
-       <Art name={books[0].name} genere={books[0].genere} image={books[0].image}/>
-       <Art name={books[1].name} genere={books[1].genere} image={books[1].image}/>
-       <Art name={books[2].name} genere={books[2].genere} image={books[2].image}/>
-       <Art name={books[3].name} genere={books[3].genere} image={books[3].image}/>
-       <Art name={books[4].name} genere={books[4].genere} image={books[4].image}/>
-       <Art name={books[5].name} genere={books[5].genere} image={books[5].image}/>
+      {books.map((item) => <Art name={item.name} genere={item.genere} image={item.image} />)}
     </section>
 
     <footer className='w-full border-sky-500 border-t-2 p-2 flex text-small italic text-gray-600 justify-center mt-20'>
@@ -36,4 +31,5 @@ export default function App() {
     </footer>
   </>
   )
+ 
 }
