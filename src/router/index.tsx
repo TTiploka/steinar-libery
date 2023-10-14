@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import HomeView from "../views/HomeView";
 
 const router = createBrowserRouter([
-    { path: "/", element: <h1 className="text-white">Hello world!</ h1 > },
+    { path: "/", element: <HomeView/> },
 ]);
 
 export default router
