@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Alice in Wonderland",
+        "genere": "Aventura y fantasia",
+        "image": "/assets/Alice in Wonderland.jpg"
+    },
+    {
+        "name": "Le Petit Prince",
+        "genere": "Drama infantil",
+        "image": "/assets/Le petit prince.jpg"
+    },
+    {
+        "name": "EL tonto de Chipre",
+        "genere": "Cuento infantil",
+        "image": "/assets/El tonto de chipre.jpg"
+    },
+    {
+        "name": "Habitos atonicos",
+        "genere": "Superacion personal",
+        "image": "/assets/Habitos atonicos.jpg"
+    },
+    {
+        "name": "Psicologia del exito",
+        "genere": "Superacion personal",
+        "image": "/assets/Psicologia del exito.jpg"
+    },
+    {
+        "name": "Donde no hay",
+        "genere": "Medicina casera",
+        "image": "/assets/Donde no hay.jpg"
+    }
+]
