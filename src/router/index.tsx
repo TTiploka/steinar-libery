@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomeView from "../views/HomeView";
-import About from "../views/about";
-import Book from "../views/book";
-import ContactUs from "../views/contact-us";
-import Login from "../views/login";
-import Privacy from "../views/privacy";
-import Register from "../views/register";
+import About from "../views/About";
+import Book from "../views/Book";
+import ContactUs from "../views/ContactUs";
+import Login from "../views/Login";
+import Privacy from "../views/Privacy";
+import Register from "../views/Register";
 
 const router = createBrowserRouter([
     { path: "/", element: <HomeView/> },
