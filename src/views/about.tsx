@@ -1,7 +1,7 @@
 export default function About(){
     return <>
          <section className="m-auto w-1/2 p-5 ">
-            <img className="my-10 mx-auto w-80 h-80 border" src="src/assets/autor.jpg" alt="src/assets/nofoto.png" />
+            <img className="my-10 mx-auto border" src="src/assets/avtor2.jpg" alt="src/assets/nofoto.png" />
             <h1 className="text-white text-center my-5 text-2xl">About us</h1>
             <p className=" text-white w-full justify-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
